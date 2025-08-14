@@ -1,0 +1,148 @@
+/* ==== Reset ==== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    margin: 0;
+}
+
+/* ==== Scroll suave ==== */
+html{
+    scroll-behavior: smooth;
+}
+
+/* ==== Estilos gerais ==== */
+.section {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.paragrafo {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 10px auto;
+    width: 980px;
+    text-align: justify;
+}
+
+.destaque {
+    font-size: 22px;
+    line-height: 42px;
+    text-align: center;
+    width: 700px;
+}
+
+/* ==== Cores de texto ==== */
+.texto-azul {
+    color: #1d80c1;
+    font-weight: bold;
+}
+
+.texto-amarelo {
+    color: #fff81b;
+    font-weight: bold;
+}
+
+/* ==== Topo ==== */
+.topo {
+    background-color: #afddfb;
+}
+
+.logo {
+    width: 150px;
+}
+
+.menu-topo {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.link-topo {
+    color: #1d1d1d;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 10px;
+    border-bottom: 2px solid #1d1d1d;
+}
+
+/* ==== Banner ==== */
+.banner {
+    padding-top: 0;
+    margin-top: 50px;
+}
+
+.imagem-banner {
+    width: 100%;
+    max-width: 980px;
+}
+
+/* ==== Imagens ==== */
+.imagem-destaque {
+    width: 450px;
+}
+
+/* ==== Serviços ==== */
+.servicos {
+    background-color: #1d80c1;
+}
+
+.servicos h3,
+.contato h3 {
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+/* ==== Listas ==== */
+.lista {
+    list-style: square;
+    margin: 40px auto;
+    padding: 0;
+}
+
+.servicos .lista {
+    width: 135px;
+}
+
+.servicos .lista li {
+    font-size: 22px;
+    line-height: 42px;
+    text-align: left;
+    color: #fff;
+}
+
+.contato .lista {
+    width: 210px;
+}
+
+.contato .lista li {
+    margin-top: 15px;
+    font-size: 18px;
+    list-style: none;
+}
+
+/* ==== Contato ==== */
+.contato {
+    background-color: #1d80c1;
+}
+
+.contato .paragrafo {
+    color: #fff;
+    background-color: #1d1d1d;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.link-contato {
+    background-color: #ffffff;
+    color: #1d80c1;
+    padding: 2px 5px;
+    border-radius: 5px;
+    border-bottom: 3px solid #1d1d1d;
+    text-decoration: none;
+}
